@@ -7,7 +7,7 @@ import os
 
 
 city = (input("city : "))
-user_api = '648ba86375970aabb77d970af523dddb'
+user_api = '' #your user api key
 unit = 'metric'
 api = 'http://api.openweathermap.org/data/2.5/weather?id='
 #full_url = api + str(city) + '&mode=json&units=' + unit + '&APPID=' + user_api
