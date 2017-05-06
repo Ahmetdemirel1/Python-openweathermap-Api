@@ -38,7 +38,7 @@ data = dict(
 
 print("________________________________")
 print("Weather in: {}, {}:".format(data['city'],data['country']))
-print("temp: {} \xb0C, sky:{}".format(data['temp'], data['sky']))
+print("temp: {} \xb0K, sky:{}".format(data['temp'], data['sky']))
 print('Max Temp: {}, Min Temp: {}'.format(data['temp_max'], data['temp_min']))
 print('Sunrise at: {}'.format(data['sunrise']))
 print('Sunset at: {}'.format(data['sunset']))
